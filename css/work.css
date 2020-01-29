@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+}
+
+html, body{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+
+}
+/*--------------------------------------------------------------------------------------*/
+
+
+#mainNav .navwork{
+  text-decoration: line-through;
+  color: #ad1404;
+}
+
+
+#container{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation img{
+  background-color: transparent;
+  position: fixed;
+  top: 2%;
+  width: 3%;
+  }
+
+
+#navigation{
+  background-color: transparent;
+  padding: 1.5%;
+  padding-top: 3%;
+  /*flex*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navigation ul{
+  background-color: transparent;                           /*header-navigations menu*/
+  width: 20%;
+  text-transform: uppercase;
+  list-style-type: none;
+  /*flex*/
+  display: flex;
+  justify-content: flex-end;
+  position:fixed;
+  right:2.5%;
+}
+
+#navigation li{
+  margin: 0% 5% 0% 5%;
+  color: white;
+  line-height: normal;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+}
+
+#navigation a{
+  color: #838383;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+#navigation a:hover{
+  color: #ad1404;
+}
+
+.navwork a{
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.picturebox{
+  width: 50%;
+  float: left;
+}
+
+.picturebox img{
+  width: 80%;
+  padding: 10% 0 5% 20%;
+}
+
+
+.paragraphbox{
+  width: 30%;
+  float: right;
+  margin-right: 13%;
+
+}
+.paragraphbox p{
+  color: black;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-family: Raleway
+
+}
+
+.text1{
+  padding: 5% 0 0 0;
+}
+
+.paragraphbox h1{
+  margin: 30% 0 0 0;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.more1{
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  background-color: #ad1404;
+  font-size: 1em;
+  padding: 2%;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+  margin: 5% 0 0 80%;
+}
+.more1:hover{
+  opacity: 90%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+#container2{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+  .picturebox{
+    width: 50%;
+    float: left;
+  }
+
+  .picturebox img{
+    width: 80%;
+    padding: 10% 0 5% 20%;
+
+  }
+
+
+  .paragraphbox{
+    width: 30%;
+    float: right;
+    margin-right: 13%;
+
+  }
+  .paragraphbox p{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-family: Raleway
+
+  }
+
+  .text1{
+    padding: 5% 0 0 0;
+  }
+
+  .paragraphbox h1{
+    margin: 30% 0 0 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+
+  .more a{
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    background-color: #ad1404;
+    font-size: 1em;
+    padding: 2%;
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    margin: 5% 0 0 80%;
+    text-transform: uppercase;
+  }
+  .more:hover{
+    opacity: 90%;
+  }
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+#container3{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+  #container4{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+
+  #container5{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+  background-color: white;
+  width: 100%;
+  height: 2%;
+  text-align: center;
+  color: black;
+  padding-bottom: 4px;
+}

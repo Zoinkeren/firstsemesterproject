@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------------------------------------------------------*/
+
+#container{
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation img{
+  background-color: transparent;
+  position: fixed;
+  top: 2%;
+  width: 3%;
+}
+
+
+#navigation{
+  background-color: transparent;
+  padding: 1.5%;
+  padding-top: 3%;
+  /*flex*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navigation ul{
+  background-color: transparent;                           /*header-navigations menu*/
+  width: 20%;
+  text-transform: uppercase;
+  list-style-type: none;
+  /*flex*/
+  display: flex;
+  justify-content: flex-end;
+  position:fixed;
+  right:2.5%;
+}
+
+#navigation li{
+  margin: 0% 5% 0% 5%;
+  color: white;
+  line-height: normal;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+}
+
+#navigation a{
+  color: #838383;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+#navigation a:hover{
+  color: #ad1404;
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+.introduktion{
+  color: black;
+  font-family: roboto;
+  display: flex;
+  margin-top: 20%;
+  padding-left: 10%;
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: 2px;
+
+  animation-name: landing_animation;
+  animation-duration: 4s;
+  transition-timing-function: cubic-bezier(.59,.07,.0,.0);
+}
+
+@keyframes landing_animation{
+  0%  {
+    opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+  .introduktion{
+    font-size: 1.5em;
+  }
+
+}
+
+.introduktiontwo{
+  color: black;
+  font-family: roboto;
+  display: flex;
+  padding-left: 10%;
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: 2px;
+
+  animation-name: landing_animationtwo;
+  animation-duration: 6s;
+  transition-timing-function: cubic-bezier(.59,.07,.0,.0);
+}
+
+@keyframes landing_animationtwo{
+  0%  {
+    opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+  .introduktiontwo{
+    font-size: 1.5em;
+  }
+
+}
+                                              /*container 1*/
+/*--------------------------------------------------------------*/
+
+#containertwo{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 110%;
+}
+
+#headlinescapabilities{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 33.4%;
+}
+#headlinescapabilities h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 3em;
+  text-transform: capitalize;
+  font-family: Raleway;
+  font-weight: bolder;
+}
+
+.above{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 20px;
+
+}
+                                                          /*containertwo*/
+
+.pointing{
+    width: 150%;
+}
+
+
+#ulheadlinescapabilities{
+  display: flex;
+  justify-content: center;
+  width: 33.2%;
+}
+
+
+#ulheadlinescapabilities ul{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16%;
+  margin-left:60%;
+}
+#ulheadlinescapabilities li{
+  margin-top: 180px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#capabilitiestexts{
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 33.4%;
+}
+
+#capabilitiestexts ul{
+  color: black;
+  color: white;
+  list-style-type: none;
+  margin-top: 18%;
+}
+#capabilitiestexts li{
+  margin: 30% 10% 0 12%;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  line-height: 25px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #capabilitiestexts li{
+    font-size: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #ulheadlinescapabilities li{
+    font-size: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .pointing{
+    width: 100%;
+
+  }
+
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#containerthree{
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+
+#containerthree h1{
+font-size: 3em;
+text-transform: capitalize;
+font-family: Raleway;
+font-weight: bolder;
+width: 6%;
+margin-top: 5%;
+margin-left: 10%;
+}
+
+
+
+#containerthree article p{
+  width: 40%;
+  color: black;
+  float: left;
+  font-size: 0.9em;
+  font-family: Raleway;
+  padding-left: 10%;
+  padding-top: 3%;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+
+  article{
+    font-size: 10px;
+
+  }
+
+}
+
+
+#containergallery{
+  width: 40%;
+  height: 60%;
+  display: grid;
+  text-align: left;
+  float: right;
+
+  grid-template-areas:
+  'project1'
+  'project2'
+  'animation'
+  'product_photos'
+  'cartoonart';
+  margin-right: 4%;
+  grid-gap: 2px;
+
+}
+
+
+#containergallery a{
+  text-decoration: none;
+  color: white;
+  font-family: Raleway;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-right: 8%;
+
+}
+
+
+
+#containergallery .project1:hover{
+  opacity: 100%;
+}
+#containergallery .project2:hover{
+  opacity: 100%;
+}
+#containergallery .animation:hover{
+  opacity: 100%;
+}
+#containergallery .product_photos:hover{                                /*container3 gallery and info*/
+  opacity: 100%;
+}
+#containergallery .cartoonart:hover{
+  opacity: 100%;
+}
+
+
+
+#containerthree .project1{
+  grid-area: project1;
+  background-image: url('../assetspf/img/fyr.png');
+  background-size: cover;
+  padding: 9%;
+  color: white;
+  opacity: 50%;
+  font-family: Raleway, helvetica;
+  letter-spacing: 2px;
+}
+
+
+#containerthree .project2{
+  grid-area: project2;
+  background-image: url('../assetspf/img/prototype.jpg');
+  background-size: cover;
+  padding: 9%;
+  color: white;
+  opacity: 50%;
+  font-family: Raleway, helvetica;
+  letter-spacing: 2px;
+}
+
+#containerthree .animation{
+  grid-area: animation;
+  background-image: url('../assetspf/img/cactus.png');
+  background-size: cover;
+  padding: 9%;
+  color: white;
+  opacity: 50%;
+  font-family: Raleway, helvetica;
+  letter-spacing: 2px;
+}
+
+#containerthree .product_photos{
+  grid-area: product_photos;
+  background-image: url('../assetspf/img/flask.jpg');
+  background-size: cover;
+  padding: 9%;
+  color: black;
+  opacity: 50%;
+  font-family: Raleway, helvetica;
+  letter-spacing: 2px;
+}
+
+#containerthree .cartoonart{
+  grid-area: cartoonart; background-color: black;
+  background-image: url('../assetspf/img/pointing.svg');
+  background-size: cover;
+  opacity: 75%;
+  padding: 9%;
+  color: white;
+  font-family: Raleway, helvetica;
+  letter-spacing: 2px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+#containerfour{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+}
+
+
+.rightsection{
+  width: 50%;
+}
+
+
+.contactsection{
+  width: 30%;
+  padding-left: 8%;
+  padding-top: 9%;
+}
+
+.contactsection h1{
+  color: white;
+  text-align: center;
+  font-family: Raleway;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding-bottom: 4%;
+}
+
+.contact_form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contactformtext{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  padding: 4%;
+
+}
+
+textarea .contactformtext{
+  resize: none;
+  width: auto;
+  height: 200px;
+}
+
+.contact_form_btn{
+    float: right;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    background-color: #ad1404;
+    font-size: 1em;
+    padding: 2%;
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+
+}
+
+.contactsection .contact_form_btn:hover{
+  opacity: 90%;
+}
+
+.rightsection img{
+  width: 95%;
+  height: auto;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 2%;
+  text-align: center;
+  color: white;
+  padding-bottom: 4px;
+}
+
+#scrollValue{
+  font-size:35px;
+  position:fixed;
+  right:50%;
+  top:50%;
+  color:red;
+}
